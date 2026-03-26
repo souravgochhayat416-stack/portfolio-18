@@ -4,10 +4,6 @@
   text-wrap: nowrap;
   overflow: hidden;
 }
-.hover-in {
-  position: relative;
-  transition: 0.3s;
-}
 .hover-in div {
   display: flex;
   position: absolute;
