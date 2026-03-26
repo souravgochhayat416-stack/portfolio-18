@@ -7,12 +7,12 @@ export default function AnimatedBox() {
 
   useGSAP(() => {
     // This animation is now "safe" and won't lag or double-run
-    gsap.to(".box", { 
-      x: 100, 
-      repeat: -1, 
-      yoyo: true, 
+    gsap.to(".box", {
+      x: 100,
+      repeat: -1,
+      yoyo: true,
       duration: 1,
-      ease: "power1.inOut" 
+      ease: "power1.inOut"
     });
   }, { scope: container }); // Scope ensures GSAP only looks inside this component
 
